@@ -17,7 +17,7 @@ export async function createTopic(title: string, description: string) {
   }
 }
 
-// 2. 토픽 수정: Topic.findByLdAndUpdate()
+// 2. 토픽 수정: Topic.findByIdAndUpdate()
 export async function updateTopic(
   id: string,
   title: string,
